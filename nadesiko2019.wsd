@@ -1,4 +1,4 @@
-
+```uml
 @startuml
 box "大学/高校/ユース" 
 	participant "神奈川大" as ku #lightblue
@@ -189,3 +189,4 @@ re <- ny:MF 中村みづき
 
 
 @enduml
+```
