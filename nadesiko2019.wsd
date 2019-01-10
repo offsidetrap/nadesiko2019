@@ -1,0 +1,191 @@
+
+@startuml
+box "大学/高校/ユース" 
+	participant "神奈川大" as ku #lightblue
+	participant "早稲田大" as wu #lightblue
+	participant "関西学院大" as kgu #lightblue
+	participant "順天堂大" as juu #lightblue
+	participant "仙台大" as seu #lightblue
+	participant "鹿児島女子高" as kjh #lightblue
+	participant "修徳高" as shh #lightblue
+    
+	participant "アルビU-18" as anu #lightblue
+	participant "ちふれマリ" as cem #lightblue
+end box
+box "一部" 
+	participant "ベレーザ" as nb #lightgreen
+	participant "INAC" as il #red
+	participant "ノジマ" as ns #pink
+	participant "レッズ" as ur #red
+	participant "アルビ" as an #ffa000
+	participant "ジェフ" as jl #f0ff00
+	participant "パルセイロ" as np #ff8000
+	participant "ベガルタ" as vs #yellow
+	participant "日体大" as nf #LightBlue
+	participant "くノ一" as ik  #lightgreen
+end box
+
+box "二部" 
+	participant "セレッソL" as cl #pink
+	participant "ニッパツ" as ny #LightBlue
+	participant "ちふれ" as ce #white
+	participant "オルカ" as ok #lightblue
+	participant "ハリマ" as ha #LightBlue
+	participant "愛媛FC" as ef #magenta
+	participant "静産" as si #lightgreen
+	participant "スフィーダ" as ss #LightBlue
+	participant "バニーズ" as bk #red
+	participant "大和" as ys #red
+end box
+box "チャレンジ" 
+	participant "湯郷" as yb #LightBlue
+	participant "十文字" as jv #LightBlue
+	participant "JFA福島" as jf #LightBlue
+	participant "アンジュ" as ah #magenta
+	participant "吉備" as co #pink
+	participant "NGU" as nn #lightblue
+	participant "新潟医療" as nd #ff8000
+	participant "北海道" as nh #pink
+	participant "コノミヤ" as kt #lightgreen
+	participant "セレッソG" as cg #pink
+	participant "常盤木" as tk #lightgreen
+	participant "つくば" as tf #lightblue
+end box
+box "地域"
+	participant "ホワイトスター" as gh #red
+end box
+box "海外"
+	participant "Suwon" as sw #lightblue
+	participant "KSPO" as ks #lightblue
+	participant "Mainz" as sm #lightblue
+end box
+box "その他"
+	participant "未定" as un 
+	participant "引退" as re 
+end box
+
+'11 beleza nb
+'12 inac il
+il <- an:MF	八坂 芽依
+ha <- il:DF 杉田 めい
+
+'13 nojima ns
+ks <- ns:DF 吉見 夏稀
+ok <- ns:FW 正野 可菜子
+ns <- kjh:MF 松田 早和
+ns <- ku:MF 鈴木 綾華
+ns <- ku:DF 大隅 沙耶
+ns <- jl:DF 櫻本 尚子
+ns <- vs:MF 佐々木 美和
+
+'re <- ns:GK 田尻 有美
+'re <- ns:DF 臼井 理恵
+'re <- ns:FW 工藤 麻未
+'re <- ns:DF 高木 ひかり
+
+'14 reds ur
+'ce <- ur:MF 木崎 あおい 
+ok <- ur:MF 山守 杏奈
+ny <- ur:DF 長嶋 洸
+
+'15 albi an
+an <- tk:MF 加藤 栞
+ny <- an:DF 小原 由梨愛
+'un <- an:FW 川崎 咲耶
+'un <- an:GK 福村 香奈絵
+re <- an:DF 久保田 麻友 
+an <- kgu:FW 石淵 萌実
+an <- ku:MF 瀧澤 莉央
+an <- anu:MF 白井 ひめ乃
+nd <- anu:MF 中江 萌
+
+'16 jef jl 
+'ce <- jl:MF 深澤 里沙
+'ns <- jl:DF 櫻本 尚子
+jl <- ss:DF 田中 真理子
+
+'17 nagano np
+'ce <- np:MF 中村 ゆしか
+'ce <- np:MF 木下 栞
+'ce <- np:MF 齊藤 あかね
+'ce <- np:MF 大宮 玲央奈
+'ny <- np:DF 坂本 理保
+'ny <- np:GK 望月 ありさ
+ah <- np:MF 神田 若帆
+ah <- np:DF 池崎 愛
+gh <- np:GK 小髙 愛理
+np <- yb:FW 濱本 まりん
+np <- yb:MF 巴月 優希
+
+'18 sendai vs
+vs <- jl:MF 佐藤 瑞夏
+sw <- vs:FW 櫨 まどか
+'ns <- vs:MF 佐々木 美和
+'19 nittai nf
+
+'1x iga ik
+ik <- il:FW 道上 彩花
+ik <- jl:FW 三橋 明香
+ik <- jl:MF 安齋 結花
+ik <- np:FW 西川 明花
+'re <- ik:FW 神山　ゆい
+
+'cellezo co
+
+'nippatsu seaguls ny
+'re <- ny:DF 山川 夏輝
+ny <- shh:MF 小林 ひなた
+ny <- juu:MF 浦田 佳穂
+ny <- np:DF 坂本 理保
+ny <- np:GK 望月 ありさ
+'re <- ny:DF 金澤 真美
+'re <- ny:FW 石原 愛海
+'re <- ny:MF 加賀 孝子
+'re <- ny:MF 佐藤 渚
+'re <- ny:MF 岩木 綾乃
+'re <- ny:MF 中村みづき
+ny <- seu:GK 越後 希波
+ny <- sm:FW 瀬川 邑那
+ny <- ur:DF 長嶋 洸
+'un <- ny:GK 新井 翠
+
+'chifure ce
+ce <- ur:MF 木崎 あおい 
+ce <- jl:MF 深澤 里沙
+ce <- np:MF 中村 ゆしか 
+ce <- np:MF 木下 栞 
+ce <- np:MF 齊藤 あかね
+ce <- np:MF 大宮 玲央奈
+un <- ce:MF 永島 自然
+ha <- ce:GK 高橋 麻美
+jv <- ce:MF 又吉 果奈
+jv <- cem:DF 堤 夏穂
+
+
+'引退/未定
+un <- an:FW 川崎 咲耶
+un <- an:GK 福村 香奈絵
+un <- ny:GK 新井 翠
+
+
+re <- ns:GK 田尻 有美
+re <- ns:DF 臼井 理恵
+re <- ns:FW 工藤 麻未
+re <- ns:DF 高木 ひかり
+
+re <- np:MF 髙橋 奈々
+
+re <- vs:DF 千葉 梢恵
+
+re <- ik:FW 神山　ゆい
+
+re <- ny:DF 山川 夏輝
+re <- ny:DF 金澤 真美
+re <- ny:FW 石原 愛海
+re <- ny:MF 加賀 孝子
+re <- ny:MF 佐藤 渚
+re <- ny:MF 岩木 綾乃
+re <- ny:MF 中村みづき
+
+
+@enduml
