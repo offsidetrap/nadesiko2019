@@ -1,0 +1,363 @@
+
+@startuml
+title nadesiko 2019
+box "‘åŠw/‚Z/ƒ†[ƒX" 
+	participant "_“Şì‘å" as ku #lightblue
+	participant "‘ˆî“c‘å" as wu #lightblue
+	participant "ŠÖ¼Šw‰@‘å" as kgu #lightblue
+	participant "‡“V“°‘å" as juu #lightblue
+	participant "å‘ä‘å" as seu #lightblue
+	participant "ŠÖ“ŒŠw‰@‘å" as tgu #lightblue
+	participant "“Œ‹š Û‘å" as tiu #lightblue
+	participant "®”üŠw‰€‘å" as sbu  #lightblue
+	participant "R—œŠw‰@‘å" as ygu  #lightblue
+	participant "­™“‡—q‚" as kjh #lightblue
+	participant "C“¿‚" as shh #lightblue
+	participant "’Çè–åŠw‰@‚" as ogh #lightblue
+	participant "ì—z‚" as syh #lightblue
+	participant "í—t‘å•t‹k‚" as tth #lightblue
+	participant "’Á¼Šw‰@‚" as cgh #lightblue
+
+    
+	participant "ƒAƒ‹ƒrU-18" as anu #lightblue
+	participant "‚¿‚Ó‚êƒ}ƒŠ" as cem #lightblue
+end box
+box "ˆê•”" 
+	participant "ƒxƒŒ[ƒU" as nb #lightgreen
+	participant "INAC" as il #red
+	participant "ƒmƒWƒ}" as ns #pink
+	participant "ƒŒƒbƒY" as ur #red
+	participant "ƒAƒ‹ƒr" as an #ffa000
+	participant "ƒWƒFƒt" as jl #f0ff00
+	participant "ƒpƒ‹ƒZƒCƒ" as np #ff8000
+	participant "ƒxƒKƒ‹ƒ^" as vs #yellow
+	participant "“ú‘Ì‘å" as nf #LightBlue
+	participant "‚­ƒmˆê" as ik  #lightgreen
+end box
+
+box "“ñ•”" 
+	participant "ƒZƒŒƒbƒ\L" as cl #pink
+	participant "ƒjƒbƒpƒc" as ny #LightBlue
+	participant "‚¿‚Ó‚ê" as ce #white
+	participant "ƒIƒ‹ƒJ" as ok #lightblue
+	participant "ƒnƒŠƒ}" as ha #LightBlue
+	participant "ˆ¤•QFC" as ef #magenta
+	participant "ÃY" as si #lightgreen
+	participant "ƒXƒtƒB[ƒ_" as ss #LightBlue
+	participant "ƒoƒj[ƒY" as bk #red
+	participant "‘å˜a" as ys #red
+end box
+
+box "ƒ`ƒƒƒŒƒ“ƒW" 
+	participant "“’‹½" as yb #LightBlue
+	participant "\•¶š" as jv #LightBlue
+	participant "JFA•Ÿ“‡" as jf #LightBlue
+	participant "ƒAƒ“ƒWƒ…" as ah #magenta
+	participant "‹g”õš Û" as co #pink
+	participant "NGU" as nn #lightblue
+	participant "VŠƒˆã—Ã" as nd #ff8000
+	participant "–kŠC“¹" as nh #pink
+	participant "ƒRƒmƒ~ƒ„" as kt #lightgreen
+	participant "ƒZƒŒƒbƒ\G" as cg #pink
+	participant "í”Õ–Ø" as tk #lightgreen
+	participant "‚Â‚­‚Î" as tf #lightblue
+end box
+
+box "’nˆæ"
+	participant "ŒQ”nWS" as gh #red
+	participant "˜h’ËSS" as ws #lightblue
+	participant "HFC" as hf #lightblue
+	participant "ƒ‹ƒNƒŒ" as my #lightblue
+end box
+
+box "ŠCŠO"
+	participant "Suwon" as sw #lightblue
+	participant "KSPO" as ks #lightblue
+	participant "Mainz" as sm #lightblue
+	participant "canberra" as os1 #lightblue
+
+end box
+
+box "‚»‚Ì‘¼"
+	participant "–¢’è" as un 
+	participant "ˆø‘Ş" as re 
+end box
+
+'-----1
+
+'11 beleza nb
+'jv <- nb:FW ’¹ŠC —R‰À
+'vs <- nb:MF ‹÷“c ê£
+'ce <- nb:MF ã’Ò —CÀ
+
+'12 inac il
+il <- wu:FW ‰Í–ì é—¢
+il <- wu:DF O‰Y Ñ’Ã‹I
+il <- an:MF	”ªâ ‰èˆË
+il <- co:MF	‹g“c “â¹
+'ha <- il:DF ™“c ‚ß‚¢
+
+'13 nojima ns
+ks <- ns:DF ‹gŒ© ‰Ä‹H
+'ok <- ns:FW ³–ì ‰ÂØq
+ns <- jl:DF ŸN–{ ®q
+ns <- np:MF ’†–ì ^“Ş”ü
+ns <- vs:MF ²X–Ø ”ü˜a
+ns <- nf:MF •½“c ‚Ğ‚©‚è
+ns <- kjh:MF ¼“c ‘˜a
+ns <- ku:MF —é–Ø ˆ»‰Ø
+ns <- ku:DF ‘å‹÷ ¹–ë
+
+'re <- ns:GK “cK —L”ü
+'re <- ns:DF ‰Pˆä —Œb
+'re <- ns:FW H“¡ –ƒ–¢
+'re <- ns:DF ‚–Ø ‚Ğ‚©‚è
+
+'14 reds ur
+'ce <- ur:MF –Øè ‚ ‚¨‚¢ 
+'ok <- ur:MF Rç ˆÇ“Ş
+'vs <- ur:FW ”’–Ø ¯
+ur <- wu:MF –öàV ÑŠó
+'ny <- ur:DF ’·“ˆ Ÿ©
+
+'15 albi an
+an <- tk:MF ‰Á“¡ x
+'ny <- an:DF ¬Œ´ —R—œˆ¤
+'un <- an:FW ìè ç–ë
+'un <- an:GK •Ÿ‘º “ŞŠG
+'re <- an:DF ‹v•Û“c –ƒ—F 
+an <- kgu:FW Î•£ –GÀ
+an <- ku:MF ‘ëàV ä»‰›
+an <- anu:MF ”’ˆä ‚Ğ‚ß”T
+nd <- anu:MF ’†] –G
+
+'16 jef jl 
+'ce <- jl:MF [àV —¢¹
+'ns <- jl:DF ŸN–{ ®q
+jl <- ss:DF “c’† ^—q
+
+'17 nagano np
+'ce <- np:MF ’†‘º ‚ä‚µ‚©
+'ce <- np:MF –Ø‰º x
+'ce <- np:MF ê“¡ ‚ ‚©‚Ë
+'ce <- np:MF ‘å‹{ —æ‰›“Ş
+'ny <- np:DF â–{ —•Û
+'ny <- np:GK –]Œ ‚ ‚è‚³
+'ns <- np:MF ’†–ì ^“Ş”ü
+ah <- np:MF _“c á”¿
+ah <- np:DF ’rè ˆ¤
+gh <- np:GK ¬ûü ˆ¤—
+np <- yb:FW à_–{ ‚Ü‚è‚ñ
+np <- yb:MF ”bŒ —DŠó
+
+'18 sendai vs
+vs <- nb:MF ‹÷“c ê£
+vs <- ur:FW ”’–Ø ¯
+vs <- jl:MF ²“¡ ‰Ä
+
+sw <- vs:FW ”¥ ‚Ü‚Ç‚©
+'ns <- vs:MF ²X–Ø ”ü˜a
+
+'19 nittai nf
+'ns <- nf:MF •½“c ‚Ğ‚©‚è
+my <- nf:MF Œã“¡ ˆŸ–í
+re <- nf:MF Îˆä ç°
+re <- nf:DF ŸNˆä –ƒ—F‰À
+
+'1x iga ik
+ik <- il:FW “¹ã Ê‰Ô
+ik <- jl:FW O‹´ –¾
+ik <- jl:MF ˆÀâV Œ‹‰Ô
+ik <- np:FW ¼ì –¾‰Ô
+'re <- ik:FW _R@‚ä‚¢
+
+'-----2
+
+'cellezo co
+
+'nippatsu seaguls ny
+'re <- ny:DF Rì ‰Ä‹P
+ny <- shh:MF ¬—Ñ ‚Ğ‚È‚½
+ny <- juu:MF ‰Y“c ‰À•ä
+ny <- np:DF â–{ —•Û
+ny <- np:GK –]Œ ‚ ‚è‚³
+'re <- ny:DF ‹ààV ^”ü
+'re <- ny:FW ÎŒ´ ˆ¤ŠC
+'re <- ny:MF ‰Á‰ê Fq
+'re <- ny:MF ²“¡ 
+'re <- ny:MF Šâ–Ø ˆ»”T
+'re <- ny:MF ’†‘º‚İ‚Ã‚«
+ny <- seu:GK ‰zŒã Šó”g
+ny <- sm:FW £ì —W“ß
+ny <- ur:DF ’·“ˆ Ÿ©
+ny <- an:DF ¬Œ´ —R—œˆ¤
+'un <- ny:GK Vˆä ‰
+
+'chifure ce
+ce <- nb:MF ã’Ò —CÀ
+ce <- il:GK •ŸŒ³ ”ü•ä
+ce <- ur:MF –Øè ‚ ‚¨‚¢ 
+ce <- jl:MF [àV —¢¹
+ce <- np:MF ’†‘º ‚ä‚µ‚© 
+ce <- np:MF –Ø‰º x 
+ce <- np:MF ê“¡ ‚ ‚©‚Ë
+ce <- np:MF ‘å‹{ —æ‰›“Ş
+ce <- ss:FW R–{ Ø÷”ü
+ce <- yb:FW ™R ‹Mq
+ce <- co:DF Œà‰® ŠG—q
+un <- ce:MF ‰i“‡ ©‘R
+'ha <- ce:GK ‚‹´ –ƒ”ü
+'ha <- ce:MF ’†–ì —¢”T
+'jv <- ce:MF –”‹g ‰Ê“Ş
+'jv <- cem:DF ’ç ‰Ä•ä
+'jv <- ce:DF ‘ºĞ ¬—
+'yb <- ce:MF ’|ƒm’J D”ü
+wu <- ce:FW “y‹ –¾“ú
+'ys <- ce:DF Šİ ‚İ‚Ì‚è
+
+'	"ƒIƒ‹ƒJ" as ok #lightblue
+un <- ok:MF “¡“c ‚Ì‚¼‚İ
+un <- ok:MF ¼”ö –ƒ“Ş”ü
+ok <- tgu:FW ê“¡ Ê‰Ô
+ok <- tiu:DF Vˆä ƒ“Ş
+ok <- tiu:GK ´… x
+ok <- wu:DF “n•” “ßŒ
+ok <- syu:DF R“c —Dˆß
+ok <- ns:FW ³–ì ‰ÂØq
+ok <- ks:MF “ìR ç–¾
+ok <- ur:MF Rç ˆÇ“Ş
+
+'	"ƒnƒŠƒ}" as ha #LightBlue
+ha <- il:DF ™“c ‚ß‚¢
+ha <- ce:GK ‚‹´ –ƒ”ü
+ha <- ce:MF ’†–ì —¢”T
+ha <- yb:FW ’·àV —D‰è
+
+
+un <- ha:DF STEPHANIE Kay Spiekerman
+un <- ha:MF à_ì Ø‰›
+un <- ha:GK ˆÉ“¡ ç‰›
+un <- ha:DF sì ˆ¤á
+un <- ha:MF R–{ ‘D
+un <- ha:MF ã“ˆ “µ
+un <- ha:FW –îŸ ˆŸ‰À‰¹
+un <- ha:MF ¼–ì —L
+un <- ha:DF ²–ì ‘‹I
+un <- ha:FW ŒKŒ´ ˆ©
+un <- ha:GK Ø”¨ ‹Õ”T
+
+'	"ˆ¤•QFC" as ef #magenta
+ef <- jl:MF ‰¡R ˆŸˆË
+un <- ef:DF ˜ï‰® –ƒˆßq
+un <- ef:MF ¬ì ^–¼”ü
+un <- ef:DF ˆ¢•” —ŠG
+un <- ef:FW —§‰Ô ^”ü
+un <- ef:MF ’†‘º x
+un <- ef:FW ‹àˆä “Ş•c
+un <- ef:MF ]K ä»
+
+
+
+'	"ÃY" as si #lightgreen
+si <- ws:GK ‚‹´@”üt
+
+'	"ƒXƒtƒB[ƒ_" as ss #LightBlue
+ss <- sbu:MF ’†R ‚³‚Â‚«(
+si <- ygu:DF ‹àq ‚ä‚¢
+'jv <- ss:MF ‰Ô‹Ë ‚È‚¨‚İ
+'jl <- ss:DF “c’† ^—q
+'jv <- ss:MF ˆÉ“¡ ç”~
+un <- ss:FW ?R ØXŒb
+
+re <- ss:DF ‹k–Ø —F—Œb
+
+
+'	"ƒoƒj[ƒY" as bk #red
+bk <- il:MF •½’Ë –œ‹M
+bk <- tth:MF ¬’r ^—
+un <- bk:DF ”óŒû —¢•ä
+un <- bk:MF ’·ˆä ç‹G
+un <- bk:MF ğˆä ”ü—é
+
+re <- bk:FW ¼ì ÷
+re <- bk:FW åÎ ˜Ò–²
+re <- bk:GK “c’† K“Ş
+
+'	"‘å˜a" as ys #red
+ys <- ce:DF Šİ ‚İ‚Ì‚è
+ys <- ah:DF ŸN—Ñ ˆŸ²q
+ys <- sbu:DF –{ŠÔ –ƒ½
+ys <- cgh:MF ’†‘º —åˆ¤
+
+re <- ys:DF ’†ì äq
+re <- ys:FW ‘ºR •S‰Ô
+re <- ys:DF ‹gì ¬–éq
+'hf <- ys:DF ç“c –—¢“Ş
+
+'-----c
+' "“’‹½" as yb #LightBlue
+yb <- ce:MF ’|ƒm’J D”ü
+'ha <- yb:FW ’·àV —D‰è
+
+'"\•¶š" as jv #LightBlue
+jv <- nb:FW ’¹ŠC —R‰À
+jv <- ce:MF –”‹g ‰Ê“Ş
+jv <- cem:DF ’ç ‰Ä•ä
+jv <- ce:DF ‘ºĞ ¬—
+jv <- ss:MF ˆÉ“¡ ç”~
+jv <- ss:MF ‰Ô‹Ë ‚È‚¨‚İ
+'ah <- ys:GK “c’† K“Ş
+
+' "JFA•Ÿ“‡" as jf #LightBlue
+ah <- ys:GK “c’† K“Ş
+' "ƒAƒ“ƒWƒ…" as ah #magenta
+' "‹g”õš Û" as co #pink
+' "NGU" as nn #lightblue
+' "VŠƒˆã—Ã" as nd #ff8000
+' "–kŠC“¹" as nh #pink
+' "ƒRƒmƒ~ƒ„" as kt #lightgreen
+' "ƒZƒŒƒbƒ\G" as cg #pink
+' "í”Õ–Ø" as tk #lightgreen
+' "‚Â‚­‚Î" as tf #lightblue
+
+'----’nˆæ
+hf <- ys:DF ç“c –—¢“Ş
+
+'-----ŠCŠOˆÚĞ
+
+
+'-----ˆø‘Ş/–¢’è
+un <- an:FW ìè ç–ë
+un <- an:GK •Ÿ‘º “ŞŠG
+un <- ny:GK Vˆä ‰
+
+
+
+re <- ns:GK “cK —L”ü
+re <- ns:DF ‰Pˆä —Œb
+re <- ns:FW H“¡ –ƒ–¢
+re <- ns:DF ‚–Ø ‚Ğ‚©‚è
+
+re <- an:DF ‹v•Û“c –ƒ—F 
+
+re <- np:MF ûü‹´ “ŞX
+
+re <- vs:DF ç—t ½Œb
+
+
+re <- ik:FW _R@‚ä‚¢
+
+re <- ny:DF Rì ‰Ä‹P
+re <- ny:DF ‹ààV ^”ü
+re <- ny:FW ÎŒ´ ˆ¤ŠC
+re <- ny:MF ‰Á‰ê Fq
+re <- ny:MF ²“¡ 
+re <- ny:MF Šâ–Ø ˆ»”T
+re <- ny:MF ’†‘º‚İ‚Ã‚«
+
+re <- ok:GK —L”n Ã‰À
+re <- ok:DF Ô‰¬ ”ü‰À
+re <- ok:DF ¬—Ñ ‰f—¢“Ş
+
+
+@enduml
