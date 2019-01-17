@@ -69,6 +69,7 @@ box "地域"
 	participant "鷲塚SS" as ws #lightblue
 	participant "HFC" as hf #lightblue
 	participant "ルクレ" as my #lightblue
+	participant "ヴィアティン見え" as vm #lightblue
 end box
 
 box "海外"
@@ -76,7 +77,7 @@ box "海外"
 	participant "KSPO" as ks #lightblue
 	participant "Mainz" as sm #lightblue
 	participant "canberra" as os1 #lightblue
-
+    participant "Hyundai" as os2 #lightblue
 end box
 
 box "その他"
@@ -90,6 +91,8 @@ end box
 'jv <- nb:FW 鳥海 由佳
 'vs <- nb:MF 隅田 凜
 'ce <- nb:MF 上辻 佑実
+'ys <- nb:GK 田中 桃子
+nb <- jf:MF 遠藤 純
 
 '12 inac il
 il <- wu:FW 河野 朱里
@@ -132,6 +135,7 @@ an <- kgu:FW 石淵 萌実
 an <- ku:MF 瀧澤 莉央
 an <- anu:MF 白井 ひめ乃
 an <- co:MF 松原 志歩
+an <- nd:DF 池田 玲奈
 'nd <- anu:MF 中江 萌
 
 '16 jef jl 
@@ -210,7 +214,10 @@ ce <- np:MF 大宮 玲央奈
 ce <- ss:FW 山本 菜桜美
 ce <- yb:FW 杉山 貴子
 ce <- co:DF 呉屋 絵理子
+ce <- os2:MF 長野 風花
 un <- ce:MF 永島 自然
+
+
 'ha <- ce:GK 高橋 麻美
 'ha <- ce:MF 中野 里乃
 'jv <- ce:MF 又吉 果奈
@@ -229,6 +236,7 @@ ok <- syh:DF 山田 優衣
 ok <- ns:FW 正野 可菜子
 ok <- ks:MF 南山 千明
 ok <- ur:MF 山守 杏奈
+'vm <- ok:DF 小林 映里奈
 
 un <- ok:MF 藤田 のぞみ
 un <- ok:MF 西尾 麻奈美
@@ -294,6 +302,8 @@ ys <- ce:DF 岸 みのり
 ys <- ah:DF 櫻林 亜佐子
 ys <- sbu:DF 本間 麻椰
 ys <- cgh:MF 中村 怜愛
+ys <- nb:GK 田中 桃子
+
 'ah <- ys:GK 田中 幸奈
 
 're <- ys:DF 中川 茉子
@@ -333,6 +343,7 @@ ah <- np:DF 池崎 愛
 hf <- ys:DF 千田 満里奈
 my <- nf:MF 後藤 亜弥
 gh <- np:GK 小髙 愛理
+vm <- ok:DF 小林 映里奈
 
 
 '-----海外など移籍
