@@ -82,7 +82,7 @@ end box
 
 box "その他"
 	participant "未定" as un 
-	participant "引退" as re 
+participant "引退" as re 
 end box
 
 '-----1
@@ -121,21 +121,23 @@ ns <- ku:DF 大隅 沙耶
 'ce <- ur:MF 木崎 あおい 
 'ok <- ur:MF 山守 杏奈
 'vs <- ur:FW 白木 星
+ur <- tk:MF 柴山 史菜
 ur <- wu:MF 柳澤 紗希
 ur <- tu:MF 水谷 有希
 'ny <- ur:DF 長嶋 洸
 
 '15 albi an
-an <- tk:MF 加藤 栞
 'ny <- an:DF 小原 由梨愛
 'un <- an:FW 川崎 咲耶
 'un <- an:GK 福村 香奈絵
 're <- an:DF 久保田 麻友 
+an <- jf:MF 武田 あすみ
+an <- co:MF 松原 志歩
+an <- nd:DF 池田 玲奈
+an <- tk:MF 加藤 栞
 an <- kgu:FW 石淵 萌実
 an <- ku:MF 瀧澤 莉央
 an <- anu:MF 白井 ひめ乃
-an <- co:MF 松原 志歩
-an <- nd:DF 池田 玲奈
 'nd <- anu:MF 中江 萌
 
 '16 jef jl 
