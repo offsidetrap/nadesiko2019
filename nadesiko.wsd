@@ -95,6 +95,7 @@ end box
 nb <- jf:MF 遠藤 純
 
 '12 inac il
+il <- ns:GK 田尻 有美
 il <- wu:FW 河野 朱里
 il <- wu:DF 三浦 紗津紀
 il <- an:MF	八坂 芽依
@@ -108,6 +109,8 @@ ns <- jl:DF 櫻本 尚子
 ns <- np:MF 中野 真奈美
 ns <- vs:MF 佐々木 美和
 ns <- nf:MF 平田 ひかり
+ns <- nf:DF 大賀 理紗子
+ns <- nf:GK 森田 有加里
 ns <- kjh:MF 松田 早和
 ns <- ku:MF 鈴木 綾華
 ns <- ku:DF 大隅 沙耶
@@ -121,6 +124,7 @@ ns <- ku:DF 大隅 沙耶
 'ce <- ur:MF 木崎 あおい 
 'ok <- ur:MF 山守 杏奈
 'vs <- ur:FW 白木 星
+ur <- nf:FW 植村 祥子
 ur <- tk:MF 柴山 史菜
 ur <- wu:MF 柳澤 紗希
 ur <- tu:MF 水谷 有希
@@ -169,6 +173,8 @@ vs <- jl:MF 佐藤 瑞夏
 
 '19 nittai nf
 'ns <- nf:MF 平田 ひかり
+'ns <- nf:DF 大賀 理紗子
+'ns <- nf:GK 森田 有加里
 'my <- nf:MF 後藤 亜弥
 re <- nf:MF 石井 千晴
 re <- nf:DF 櫻井 麻友佳
@@ -362,7 +368,7 @@ un <- ny:GK 新井 翠
 
 
 
-re <- ns:GK 田尻 有美
+'re <- ns:GK 田尻 有美
 re <- ns:DF 臼井 理恵
 re <- ns:FW 工藤 麻未
 re <- ns:DF 高木 ひかり
