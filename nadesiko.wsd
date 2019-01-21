@@ -284,9 +284,9 @@ un <- ef:MF 江尻 莉緒
 '	"静産" as si #lightgreen
 si <- nf:FW 小針 舞夏
 si <- nf:MF 島村 友妃子
+si <- nf:DF 山中 沙織
 si <- os3:DF 武田 ありさ
 si <- os3:DF 平野 里菜
-si <- nf:DF 山中 沙織
 si <- ws:GK 高橋　美春
 
 '	"スフィーダ" as ss #LightBlue
