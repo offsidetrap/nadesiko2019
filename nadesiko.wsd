@@ -177,8 +177,8 @@ vs <- jl:MF 佐藤 瑞夏
 'ns <- nf:DF 大賀 理紗子
 'ns <- nf:GK 森田 有加里
 'my <- nf:MF 後藤 亜弥
-re <- nf:MF 石井 千晴
-re <- nf:DF 櫻井 麻友佳
+'re <- nf:MF 石井 千晴
+'re <- nf:DF 櫻井 麻友佳
 
 '1x iga ik
 ik <- il:FW 道上 彩花
@@ -387,6 +387,8 @@ re <- np:MF 髙橋 奈々
 
 re <- vs:DF 千葉 梢恵
 
+re <- nf:MF 石井 千晴
+re <- nf:DF 櫻井 麻友佳
 
 re <- ik:FW 神山　ゆい
 
