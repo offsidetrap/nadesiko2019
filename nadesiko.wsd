@@ -78,6 +78,7 @@ box "海外"
 	participant "Mainz" as sm #lightblue
 	participant "canberra" as os1 #lightblue
     participant "Hyundai" as os2 #lightblue
+	participant "BaysideU" as os3  #lightblue
 end box
 
 box "その他"
@@ -281,6 +282,11 @@ un <- ef:MF 江尻 莉緒
 
 
 '	"静産" as si #lightgreen
+si <- nf:FW 小針 舞夏
+si <- nf:MF 島村 友妃子
+si <- os3:DF 武田 ありさ
+si <- os3:DF 平野 里菜
+si <- nf:DF 山中 沙織
 si <- ws:GK 高橋　美春
 
 '	"スフィーダ" as ss #LightBlue
@@ -305,7 +311,9 @@ un <- bk:MF 酒井 美鈴
 're <- bk:FW 仙石 來夢
 're <- bk:GK 田中 幸奈
 
-'	"大和" as ys #red
+'	"大和シルフィード" as ys #red
+ys <- nf:FW 中野 ひかり
+ys <- nf:DF 菅能 夏海
 ys <- ce:DF 岸 みのり
 ys <- ah:DF 櫻林 亜佐子
 ys <- sbu:DF 本間 麻椰
