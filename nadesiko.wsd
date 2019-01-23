@@ -1,28 +1,7 @@
 
 @startuml
-title nadesiko 2019
-box "大学/高校/ユース" 
-	participant "神奈川大" as ku #lightblue
-	participant "早稲田大" as wu #lightblue
-	participant "関西学院大" as kgu #lightblue
-	participant "順天堂大" as juu #lightblue
-	participant "仙台大" as seu #lightblue
-	participant "関東学院大" as tgu #lightblue
-	participant "東京國際大" as tiu #lightblue
-	participant "尚美学園大" as sbu  #lightblue
-	participant "山梨学院大" as ygu  #lightblue
-	participant "筑波大" as tu  #lightblue
-	participant "鹿児島女子高" as kjh #lightblue
-	participant "修徳高" as shh #lightblue
-	participant "追手門学院高" as ogh #lightblue
-	participant "作陽高" as syh #lightblue
-	participant "常葉大付橘高" as tth #lightblue
-	participant "鎮西学院高" as cgh #lightblue
+title nadesiko 2019  更新:2019-1-23
 
-    
-	participant "アルビU-18" as anu #lightblue
-	participant "ちふれマリ" as cem #lightblue
-end box
 box "一部" 
 	participant "ベレーザ" as nb #lightgreen
 	participant "INAC" as il #red
@@ -69,7 +48,7 @@ box "地域"
 	participant "鷲塚SS" as ws #lightblue
 	participant "HFC" as hf #lightblue
 	participant "ルクレ" as my #lightblue
-	participant "ヴィアティン見え" as vm #lightblue
+	participant "ヴィアティン" as vm #lightblue
 end box
 
 box "海外"
@@ -80,7 +59,31 @@ box "海外"
     participant "Hyundai" as os2 #lightblue
 	participant "BaysideU" as os3  #lightblue
 end box
+box "大学/高校/ユース" 
+	participant "神奈川大" as ku #lightblue
+	participant "早稲田大" as wu #lightblue
+	participant "関西学院大" as kgu #lightblue
+	participant "順天堂大" as juu #lightblue
+	participant "仙台大" as seu #lightblue
+	participant "関東学院大" as tgu #lightblue
+	participant "東京國際大" as tiu #lightblue
+	participant "尚美学園大" as sbu  #lightblue
+	participant "山梨学院大" as ygu  #lightblue
+	participant "筑波大" as tu  #lightblue
+	participant "武蔵丘短期大学" as mtu #lightblue
 
+
+	participant "鹿児島女子高" as kjh #lightblue
+	participant "修徳高" as shh #lightblue
+	participant "追手門学院高" as ogh #lightblue
+	participant "作陽高" as syh #lightblue
+	participant "常葉大付橘高" as tth #lightblue
+	participant "鎮西学院高" as cgh #lightblue
+
+	participant "メニーナ" as nmu #lightblue
+	participant "アルビU-18" as anu #lightblue
+	participant "ちふれマリ" as cem #lightblue
+end box
 box "その他"
 	participant "未定" as un 
 participant "引退" as re 
@@ -94,6 +97,9 @@ end box
 'ce <- nb:MF 上辻 佑実
 'ys <- nb:GK 田中 桃子
 nb <- jf:MF 遠藤 純
+nb <- nmu:GK 黒沢 彩乃
+nb <- nmu:MF 菅野 奏音
+nb <- nmu:DF 松田 紫野
 
 '12 inac il
 il <- ns:GK 田尻 有美
@@ -303,6 +309,8 @@ un <- ss:FW 犛山 菜々恵
 '	"バニーズ" as bk #red
 bk <- il:MF 平塚 万貴
 bk <- tth:MF 小池 真理
+bk <- tiu:MF 山田 美緒和
+bk <- mtu:DF 島田 優依菜
 un <- bk:DF 樋口 里穂
 un <- bk:MF 長井 咲季
 un <- bk:MF 酒井 美鈴
@@ -339,6 +347,9 @@ jv <- cem:DF 堤 夏穂
 jv <- ce:DF 村社 汐理
 jv <- ss:MF 伊藤 千梅
 jv <- ss:MF 花桐 なおみ
+jv <- nf:MF 海老澤 桃子
+jv <- nf:MF 佐々木 由紀菜
+jv <- nf:FW 佐藤 美月
 
 ' "JFA福島" as jf #LightBlue
 
